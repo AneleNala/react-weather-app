@@ -44,7 +44,7 @@ export default function Weather(props) {
         </div>
       )}
       <footer>
-        This is coded by Anele Nala, <a href="https://github.com/AneleNala/react-weather-app" target="_blank" rel="noopener noreferrer"> GitHub</a>
+        This is coded by Anele Nala, find on  <a href="https://github.com/AneleNala/react-weather-app" target="_blank" rel="noopener noreferrer"> GitHub</a>
       </footer>
     </div>
   );
