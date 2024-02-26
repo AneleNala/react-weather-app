@@ -33,7 +33,7 @@ export default function Weather(props) {
     <div className="Weather">
       <h1>WeatherApp</h1>
       <form onSubmit={handleSubmit}>
-        <input type="search" onChange={updateCity} placeholder="Enter a city" />
+        <input type="search" onChange={updateCity} placeholder="Enter a city" id="search-city" name="city-weather" />
         <input type="submit" value="Search" />
       </form>
        {weather.temperature && (
@@ -44,7 +44,7 @@ export default function Weather(props) {
         </div>
       )}
       <footer>
-        This is coded by Anele Nala, <a href="https://github.com/AneleNala/react-weather-app">GitHub</a>
+        This is coded by Anele Nala, <a href="https://github.com/AneleNala/react-weather-app" target="_blank" rel="noopener noreferrer"> GitHub</a>
       </footer>
     </div>
   );
